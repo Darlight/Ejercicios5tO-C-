@@ -9,8 +9,7 @@ longitud = int(input("Ingrese la longitud de la contasena: "))
 cantidad = int(input("Ingrese la cantidad de contrasenas deseadas: "))
 passwords = crear_contrasena(cantidad,longitud,lista_passwords,nombre)
 escribir_contrasena(passwords,nombre)
-
-print(leer_txt(nombre))
+print("Listo, revise su carpeta junto a este programa.")
 
 
 

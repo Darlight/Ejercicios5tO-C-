@@ -11,7 +11,8 @@ def crear_contrasena(cantidad,longitud,lista,nombre):
 		for i in range(longitud):
 			x = random.randint(0,61)
 			clave += (lista[x])
-			contras.append(clave)
+		contras.append(clave)
+		clave = ""
 	return contras
 
 def escribir_contrasena(contras,nombre):
@@ -20,10 +21,4 @@ def escribir_contrasena(contras,nombre):
 		archivo.write(i+"\n")
 	archivo.close()
 	return "Ok"
-
-def leer_txt(nombre):
-	archivo = open(nombre,'r') 
-	lineas = archivo.readlines()
-	archivo.close()
-	return lineas
 	
