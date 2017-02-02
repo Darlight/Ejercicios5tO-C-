@@ -4,7 +4,9 @@ class Tab(object):
 		self.nombre = nombre
 		self.cerrar = False
 
-		def cambiar_url_tab(self):
+		def cambiar_url(self, url):
+			self.url = url
+
 
 
 
