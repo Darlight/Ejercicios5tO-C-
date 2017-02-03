@@ -1,11 +1,12 @@
 print("Bienvenido \n")
-print("""	1. Crear nuevo Tab
- 			2. Cambiar URL de Tab 
-  			3. Cerrar Tab 
-   			4. Cerrar todos los tabs 
-   			5. Mostrar mis tabs 
-   			6. Guardar Tabs
-			7. Salir       """  )
-
-nombre_deseado
+print("""	
+	1. Crear nuevo Tab
+ 	2. Cambiar URL de Tab 
+  	3. Cerrar Tab 
+   	4. Cerrar todos los tabs 
+   	5. Mostrar mis tabs 
+   	6. Guardar Tabs
+	7. Salir       """  )
+seguir = 0
+while seguir != 0 and 
 
