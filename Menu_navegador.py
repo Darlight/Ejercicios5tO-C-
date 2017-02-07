@@ -19,17 +19,24 @@ while seguir not in range(1, 9):
 		mi_navegador = Navegador(id_nombre)
 
 	elif seguir == 2:
-		id_tab = input("Escriba el nombre del tab: ")
+		nombre_tab = input("Escriba el nombre del tab: ")
 		id_url = input("Ingrese su URL: ")
-		mi_tab = Tab(id_tab,id_url)
-		mi_navegador.tabs.append(mi_tab)
-		mi_tab = ""
+		id_tab = Tab(nombre_tab,id_url)
+		for o in range(len(mi_navegador.tabs)):
+
+		mi_navegador.tabs.append(id_tab)
 
 	elif seguir == 3:
-		id_t
+		print(" \n ")
+		for i in range(len(mi_navegador.tabs)):
+			print i
+		que_tab = input("Que tab desea cambiar su URL? \n : ")
+		que_url = input("Ingrese su URL: ")
+		for l in range(len(mi_navegador.tabs)):
+			if l == que_tab:
 
 	elif seguir == 4:
-
+		
 	elif seguir == 5:
 
 	elif seguir == 6:
