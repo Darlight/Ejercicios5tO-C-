@@ -11,12 +11,16 @@ class Navegador(object):
 		self.tabs.pop(tab)
 		return self.tabs
 
+	def cambiar_tab(indice, nombre, url,tabs):
+		for i in range(len(tabs)):
+			
+
+
 	def cerrar_todas_tabs(self):
 		self.tabs = []
 
 	def mostrar_tabs(self):
-		for i in range(len(self.tabs)):
-		return self.tabs[i]
+		return self.tabs
 
 	def guardar_tabs(self):
 		archivo = open("todoslostabs.txt","w")
