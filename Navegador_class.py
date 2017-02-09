@@ -8,13 +8,11 @@ class Navegador(object):
 		self.tabs.append(tab) 
 
 	def cerrar_tab(self,tab):
-		self.tabs.pop(tab)
+		self.tabs.pop(tab-1)
 		return self.tabs
 
 	def cambiar_tab(indice, nombre, url,tabs):
-		for i in range(len(tabs)):
-			
-
+		self.tabs[indice].cambiar(nombre,url)
 
 	def cerrar_todas_tabs(self):
 		self.tabs = []
@@ -22,8 +20,8 @@ class Navegador(object):
 	def mostrar_tabs(self):
 		return self.tabs
 
-	def guardar_tabs(self):
-		archivo = open("todoslostabs.txt","w")
+	def guardar_tabs(self,nombre):
+		archivo = open(nombre,"w")
 		for i in range(len(tabs)):
 			archivo.write(i)
 			archivo.write("\n")

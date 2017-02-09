@@ -4,8 +4,9 @@ class Tab(object):
 		self.nombre = nombre
 		self.cerrar = False
 
-		def cambiar_id(self, url):
+		def cambiar(self, nombre, url):
 			self.url = url
+			self.nombre = nombre
 
 
 
