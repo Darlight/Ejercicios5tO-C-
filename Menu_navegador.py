@@ -26,7 +26,7 @@ while seguir not in range(1, 9):
 
 	elif seguir == 3:
 		print(" \n ")
-		mi_navegador.mostrar_tabs()
+		print(mi_navegador.mostrar_tabs())
 		que_tab = int(input("Que tab desea cambiar su URL? ( Ingrese un numero entero: ) \n : "))
 		que_url = input("Ingrese su URL: ")
 		que_nombre = input("Ingrese el nuevo nombre: ")
@@ -34,7 +34,7 @@ while seguir not in range(1, 9):
 
 	elif seguir == 4: 
 		print("\n")
-		mi_navegador.mostrar_tabs()
+		print(mi_navegador.mostrar_tabs())
 		que_tab = int(input("Que tab desea eliminar? (Ingrese un numero entero: ) : "))
 		mi_navegador.cerrar_tab(que_tab)
 
@@ -49,7 +49,7 @@ while seguir not in range(1, 9):
 	elif seguir == 6:
 		print(mi_navegador.mostrar_tabs())
 	elif seguir == 7: 
-		nombre = input("Ingrese el nombre de su archivo.(")
+		nombre = input("Ingrese el nombre de su archivo.(Al terminar, debe tener al final .txt): ")
 		mi_navegador.guardar_tabs()
 		
 
