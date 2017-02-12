@@ -3,7 +3,7 @@ from Tab_class import Tab
 
 print("Bienvenido \n")
 seguir = 0
-while seguir not in range(1, 9):
+while seguir not in range(1, 8):
 	print("""	
 	1. Abrir Navegador
 	2. Crear un Tab 
@@ -30,7 +30,8 @@ while seguir not in range(1, 9):
 		que_tab = int(input("Que tab desea cambiar su URL? ( Ingrese un numero entero: ) \n : "))
 		que_url = input("Ingrese su URL: ")
 		que_nombre = input("Ingrese el nuevo nombre: ")
-		mi_navegador.cambiar_tab((que_tab-1), que_nombre, que_nombre , mi_navegador.tabs)
+		que_tab -= 1
+		mi_navegador.cambiar_tab(que_tab, que_nombre, que_nombre , mi_navegador.tabs)
 
 	elif seguir == 4: 
 		print("\n")
@@ -50,6 +51,7 @@ while seguir not in range(1, 9):
 		print(mi_navegador.mostrar_tabs())
 	elif seguir == 7: 
 		nombre = input("Ingrese el nombre de su archivo.(Al terminar, debe tener al final .txt): ")
-		mi_navegador.guardar_tabs()
+		mi_navegador.guardar_tabs(nombre)
+	seguir = 0
 		
 
