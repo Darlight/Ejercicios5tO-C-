@@ -1,9 +1,10 @@
 from Navegador_class import Navegador
 from Tab_class import Tab
 
-print("Bienvenido \n")
+print("Bienvenido")
 seguir = 0
-while seguir not in range(1, 8):
+continuar = "si"
+while continuar == "si":
 	print("""	
 	1. Abrir Navegador
 	2. Crear un Tab 
@@ -11,8 +12,7 @@ while seguir not in range(1, 8):
   	4. Cerrar Tab 
    	5. Cerrar todos los tabs 
    	6. Mostrar mis tabs 
-   	7. Guardar Tabs
-	8. Salir       """  )
+   	7. Guardar Tabs      \n """  )
 	seguir = int(input("Que opcion desea?: "))
 	if seguir == 1:
 		id_nombre = input("Escriba el nombre del navegador: ")
@@ -42,10 +42,10 @@ while seguir not in range(1, 8):
 	elif seguir == 5:
 		print("\n")
 		decision = input("Esta realmente seguro de cerrar todo los tabs? (si/no)")
-		if si == "si":
+		if decision == "si":
 			mi_navegador.cerrar_todas_tabs()
 		else:
-			print("Pienselo mejor la proxima vez ")
+			print("Pienselo mejor la proxima vez \n")
 		
 	elif seguir == 6:
 		print(mi_navegador.mostrar_tabs())
@@ -53,5 +53,6 @@ while seguir not in range(1, 8):
 		nombre = input("Ingrese el nombre de su archivo.(Al terminar, debe tener al final .txt): ")
 		mi_navegador.guardar_tabs(nombre)
 	seguir = 0
+	continuar = input("Desea hacer algo mas? (si/no): ")
 		
 
