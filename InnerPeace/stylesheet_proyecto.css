@@ -1,8 +1,9 @@
 .first{
-	height: 600px;
+	height: 400px;
 	width: 1000px;
 	background-image: url(innerpeace_photos/mujer1.jpg);
 	background-size: cover;
+	text-align: center;
 }
 .second{
 	height: 300px;
@@ -25,4 +26,40 @@ float: left;
 }
 .fifth{
 	height: 300px
+}
+.objects{
+	float: right;
+	font-size: 20px;
+	margin: auto;
+	list-style: none;
+	color: white;
+	width: 125px;
+	height: -30px;
+}
+.centertitle{
+	text-align: center;
+	color: white;
+	clear: both;
+	font-weight: normal;
+
+}
+.order{
+	float: right;
+}
+.lessertitle{
+	color: white;
+	float: left;
+	width: 150px;
+	font-size: 22px;
+
+}
+.greencover{
+	color: white;
+	background-color: lightgreen;
+}
+.text1{
+	text-align: center;
+	color: white;
+	width: 300px;
+	margin: auto;
 }
