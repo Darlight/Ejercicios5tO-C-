@@ -1,0 +1,28 @@
+.first{
+	height: 600px;
+	width: 1000px;
+	background-image: url(innerpeace_photos/mujer1.jpg);
+	background-size: cover;
+}
+.second{
+	height: 300px;
+	background-color: white;
+}
+.twins{
+	height: 300px;
+}
+.third{
+background-image: url(innerpeace_photos/mujer2.jpg);
+height: 100%;
+width: 50%;
+float: left;
+}
+.fourth{
+	background-color: #5CAC55;
+	height: 100%;
+	width: 50%;
+	float: right;
+}
+.fifth{
+	height: 300px
+}
