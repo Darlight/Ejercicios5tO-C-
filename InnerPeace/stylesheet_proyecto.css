@@ -74,7 +74,11 @@ border-radius: 10px;
 	font-size: 35px;
 
 }
-.center
+.centertitle4{
+	color: gray;
+	font-weight: normal;
+	font-size: 35px;
+}
 .order{
 	float: right;
 }
@@ -87,7 +91,7 @@ border-radius: 10px;
 }
 .greencover{
 	color: white;
-	background-color: lightgreen;
+	background-color: green;
 }
 .whitecover{
 	color: green;
@@ -113,4 +117,44 @@ border-radius: 10px;
 	margin: auto;
 	text-align: justify;
 	font-size: 15px;
+}
+.orderimages{
+	float: center;
+	display: block;
+	width: 260px;
+	height: 145px;
+	margin: auto;
+	
+}
+#first{
+	background-image: url(innerpeace_photos/valve.jpg);
+	height: 80%;
+	width: 100%;
+	list-style: none;
+	float: right;
+	margin: auto;
+}
+#second{
+	background-image: url(innerpeace_photos/blizzard.jpg);
+	height: 76%;
+	width: 77%;
+	list-style: none;
+	float: right;
+	margin: auto;
+}
+#third{
+	background-image: url(innerpeace_photos/ubisoft.jpg);
+	height: 100%;
+	width: 76%;
+	list-style: none;
+	float: right;
+	margin: auto;
+}
+#fourth{
+	background-image: url(innerpeace_photos/pinulito.jpg);
+	height: 100%;
+	width: 70%;
+	list-style: none;
+	float: right;
+	margin: auto;
 }
