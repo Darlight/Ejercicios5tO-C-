@@ -22,7 +22,7 @@ button{
 	text-align: center;
 }
 .twins{
-	height: 300px;|
+	height: 300px;
 }
 .third{
 background-image: url(innerpeace_photos/mujer2.jpg);
@@ -115,26 +115,37 @@ border-radius: 10px;
 	text-align: justify;
 	font-size: 15px;
 }
+#orderimages{
+	height: 526px;
+}
 #firstimage{
-	width: 278px;
+	width: 25%;
 	height: 111px;
 	background-image: url(innerpeace_photos/valve.jpg);
+	float: right;
+	position: relative;
 
 }
 #secondimage{
-	width: 201px;
+	width: 25%;
 	height: 102px;
 	background-image: url(innerpeace_photos/blizzard.jpg);
+	float: right;
+	position: relative;
 }
 #thirdimage{
-	width: 192px;
+	width: 25%;
 	height: 150px;
 	background-image: url(innerpeace_photos/ubisoft.jpg);
+	float: right;
+	position: relative;
 }
 #fourthimage{
-	width: 186px;
+	width: 25%;
 	height: 163px;
 	background-image: url(innerpeace_photos/pinulito.jpg);
+	float: right;
+	position: relative;
 	
 }
 
