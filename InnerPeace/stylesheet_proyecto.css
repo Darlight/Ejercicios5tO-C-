@@ -25,7 +25,7 @@ button{
 	border-radius: 10px;
 }
 .twins{
-	height: 300px;
+	height: 300px;|
 }
 .third{
 background-image: url(innerpeace_photos/mujer2.jpg);
@@ -118,43 +118,26 @@ border-radius: 10px;
 	text-align: justify;
 	font-size: 15px;
 }
-.orderimages{
-	float: center;
-	display: block;
-	width: 260px;
-	height: 145px;
-	margin: auto;
+#firstimage{
+	width: 278px;
+	height: 111px;
+	background-image: url(innerpeace_photos/valve.jpg);
+
+}
+#secondimage{
+	width: 201px;
+	height: 102px;
+	background-image: url(innerpeace_photos/blizzard.jpg);
+}
+#thirdimage{
+	width: 192px;
+	height: 150px;
+	background-image: url(innerpeace_photos/ubisoft.jpg);
+}
+#fourthimage{
+	width: 186px;
+	height: 163px;
+	background-image: url(innerpeace_photos/pinulito.jpg);
 	
 }
-#first{
-	background-image: url(innerpeace_photos/valve.jpg);
-	height: 80%;
-	width: 100%;
-	list-style: none;
-	float: right;
-	margin: auto;
-}
-#second{
-	background-image: url(innerpeace_photos/blizzard.jpg);
-	height: 76%;
-	width: 77%;
-	list-style: none;
-	float: right;
-	margin: auto;
-}
-#third{
-	background-image: url(innerpeace_photos/ubisoft.jpg);
-	height: 100%;
-	width: 76%;
-	list-style: none;
-	float: right;
-	margin: auto;
-}
-#fourth{
-	background-image: url(innerpeace_photos/pinulito.jpg);
-	height: 100%;
-	width: 70%;
-	list-style: none;
-	float: right;
-	margin: auto;
-}
+
