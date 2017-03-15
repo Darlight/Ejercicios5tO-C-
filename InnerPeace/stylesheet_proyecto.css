@@ -1,12 +1,15 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 div{
 	text-align: center;	
 }
 .first{
 	height: 375px;
-	background-image: url(innerpeace_photos/mujer1.jpg);
+	background-image: url(innerpeace_photos/mujer1.PNG);
 	background-size: cover;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 }
 input{
 	border-radius: 6px;
@@ -17,7 +20,7 @@ button{
 	height: 30px;
 }
 .second{
-	height: 300px;
+	height: 225px;
 	background-color: white;
 	text-align: center;
 }
@@ -25,10 +28,10 @@ button{
 	height: 300px;
 }
 .third{
-background-image: url(innerpeace_photos/mujer2.jpg);
-height: 100%;
-width: 50%;
-float: left;
+	background-image: url(innerpeace_photos/mujer2.jpg);
+	height: 100%;
+	width: 50%;
+	float: left;
 }
 .fourth{
 	background-color: #5CAC55;
@@ -48,7 +51,7 @@ float: left;
 	margin: auto;
 	list-style: none;
 	color: white;
-	width: 125px;
+	width: 170px;
 	height: -30px;
 }
 .centertitle{
@@ -56,6 +59,7 @@ float: left;
 	clear: both;
 	font-weight: normal;
 	font-size: 40px;
+	padding-top: 45px;
 
 }
 .centertitle2{
@@ -86,7 +90,7 @@ float: left;
 }
 .greencover{
 	color: white;
-	background-color: green;
+	background-color: #5CAC55;
 }
 .whitecover{
 	color: green;
@@ -96,12 +100,13 @@ float: left;
 	color: white;
 	width: 300px;
 	margin: auto;
-	text-align: justify;
 	font-size: 15px;
+	text-align: justify;
+	padding-bottom: 20px;
 }
 .text2{
 	color: green;
-	width: 300px;
+	width: 500px;
 	margin: auto;
 	text-align: justify;
 	font-size: 15px;
@@ -114,13 +119,13 @@ float: left;
 	font-size: 15px;
 }
 #orderimages{
-	height: 165px;
+	height: 164px;
 }
 #firstimage{
 	width: 25%;
 	height: 111px;
 	background-image: url(innerpeace_photos/valve.jpg);
-	float: right;
+	float: left;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -130,7 +135,7 @@ float: left;
 	width: 25%;
 	height: 102px;
 	background-image: url(innerpeace_photos/blizzard.jpg);
-	float: right;
+	float: left;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -139,7 +144,7 @@ float: left;
 	width: 25%;
 	height: 150px;
 	background-image: url(innerpeace_photos/ubisoft.jpg);
-	float: right;
+	float: left;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -148,7 +153,7 @@ float: left;
 	width: 25%;
 	height: 163px;
 	background-image: url(innerpeace_photos/pinulito.jpg);
-	float: right;
+	float: left;
 	position: relative;
 	background-position: center;
 	background-repeat: no-repeat;
