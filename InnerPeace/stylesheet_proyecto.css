@@ -29,14 +29,12 @@ background-image: url(innerpeace_photos/mujer2.jpg);
 height: 100%;
 width: 50%;
 float: left;
-border-radius: 10px;
 }
 .fourth{
 	background-color: #5CAC55;
 	height: 100%;
 	width: 50%;
 	float: right;
-	border-radius: 10px;
 	text-align: center;
 }
 .fifth{
@@ -116,7 +114,7 @@ border-radius: 10px;
 	font-size: 15px;
 }
 #orderimages{
-	height: 526px;
+	height: 165px;
 }
 #firstimage{
 	width: 25%;
@@ -124,6 +122,8 @@ border-radius: 10px;
 	background-image: url(innerpeace_photos/valve.jpg);
 	float: right;
 	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
 
 }
 #secondimage{
@@ -132,6 +132,8 @@ border-radius: 10px;
 	background-image: url(innerpeace_photos/blizzard.jpg);
 	float: right;
 	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #thirdimage{
 	width: 25%;
@@ -139,6 +141,8 @@ border-radius: 10px;
 	background-image: url(innerpeace_photos/ubisoft.jpg);
 	float: right;
 	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 #fourthimage{
 	width: 25%;
@@ -146,6 +150,7 @@ border-radius: 10px;
 	background-image: url(innerpeace_photos/pinulito.jpg);
 	float: right;
 	position: relative;
-	
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
