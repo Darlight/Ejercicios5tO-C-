@@ -8,7 +8,7 @@ class Estudiante(models.Model):
 	grado = models.ForeignKey('grados.Grado')
 
 	def __unicode__(self):
-		return"%S %S - %S" % (
+		return"%s %s - %s" % (
 			self.nombre,
 			self.apellido,
 			self.edad,
