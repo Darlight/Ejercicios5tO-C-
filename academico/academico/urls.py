@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from grados import views as grados_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^grados/', grados_views.lista_grados,
+    	name="lista_grados")
 ]
