@@ -5,8 +5,7 @@ class Grado(models.Model):
 	nombre = models.CharField(max_length=200)
 	order = models.IntegerField(default=0)
 
-	def __unicode__(self):
-		return"%s" % (
+	def __str__(self):
+		return "%s (%s)" % (
 			self.nombre,
-			self.order,
-			)
+			self.order)
