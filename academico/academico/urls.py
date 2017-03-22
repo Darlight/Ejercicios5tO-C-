@@ -1,5 +1,6 @@
 """academico URL Configuration
 
+
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
 Examples:
@@ -22,3 +23,4 @@ urlpatterns = [
     url(r'^grados/', grados_views.lista_grados,
     	name="lista_grados")
 ]
+

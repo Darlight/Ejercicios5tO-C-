@@ -1,0 +1,18 @@
+<html> 
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Lista de Grados</h1>
+<ul>
+	{% for grado in grados %}
+		<li>
+			{{ grado }}
+		</li>
+	{% empty %}
+	<p>No Hay Grados!</p>
+	{% endfor %}
+</ul>
+</body>
+</html>
