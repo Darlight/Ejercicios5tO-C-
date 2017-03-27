@@ -8,7 +8,8 @@ class Estudiante(models.Model):
 	grado = models.ForeignKey('grados.Grado')
 
 	def __str__(self):
-		return"%s %s - %s" % (
+		return"%s %s - %s - %s" % (
 			self.nombre,
 			self.apellido,
-			self.edad)
+			self.edad,
+			self.grado)
