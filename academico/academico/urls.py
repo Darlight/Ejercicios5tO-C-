@@ -25,5 +25,6 @@ urlpatterns = [
     	name="lista_grados"),
     url(r'^estudiantes/', estudiantes_views.lista_estudiantes,
         name="lista_estudiantes"),
-    url(r'^grados/(?P<grado_pk>[0-9]+)/',grados_views.detalle_grado,name="detalle_grado")
-]
+    url(r'^grados/(?P<grado_pk>[0-9]+)/',grados_views.detalle_grado,name="detalle_grado"),
+    url(r'^grados/crear',grados_views.crear_grado, name="crear_grado")
+] 

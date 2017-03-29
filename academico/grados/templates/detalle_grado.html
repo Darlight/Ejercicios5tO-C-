@@ -2,6 +2,12 @@
 	<head> </head>
 	<body>
 		<h1>{{ grado.nombre }}</h1>
-		for
+		<ul>
+		{% for estudiante in estudiantes %}
+			<li>{{estudiante}}</li>
+		{% empty %}
+		<li> No hay estudiantes en este grado</li>
+		{% endfor %}
+		</ul>
 	</body>
 </html>
