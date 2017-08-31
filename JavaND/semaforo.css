@@ -1,0 +1,49 @@
+.semaforo{
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background-color: black;
+	float: left;
+}
+.red{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	background-color: red;
+	opacity: 0.3;
+}
+
+button {
+	width: 75px;
+	height: 50px;
+}
+
+.red.turned-on {
+	opacity: 1.0;
+}
+
+.yellow{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	background-color: yellow;
+	opacity: 0.3;
+
+}
+.yellow.turned-on {
+	opacity: 1.0;
+}
+.green{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid black;
+	background-color: green;
+	opacity: 0.3;
+
+}
+.green.turned-on {
+	opacity: 1.0;
+}
